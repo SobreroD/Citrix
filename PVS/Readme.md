@@ -1,5 +1,4 @@
-
-#System Deployed
+# System Deployed
 $VMViewInstalled= $False							# VMware View Deployed
 $CTX7Install = $False								  # Citrix XenDesktop 7.x Installed
 $CTX65Install = $False								# Citrix XenApp 6.5 Installed
@@ -16,7 +15,7 @@ $pagemax = 16384  									                              # Pagefile maximum size
 $CDDriveLetter = "Z:"                             	              # What drive to change the CD to (Must have the ":")
 $ELSizeKB = 1024KB                             		                # What is the size for the Eventlog)
 
-#Addins
+# Addins
 $Datacenter = "" 									                                # Define Datacenter
 $ComputerName = $env:COMPUTERNAME					                        # Set computername variable
 $GPODDCs = $False                                 	              # To set DDCs from GPO
