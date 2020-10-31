@@ -41,6 +41,6 @@ $CleanDisk = $False									                # Cleanup Disk Space
 $PSdefrag = $False									                # Defrag drive with Powershell
 $ZeroFreeSpace = $False                             # Zero out free space
 
-#Client request
+# Client request
 $OSManufacturer = $False                          	# Change Manufacturer name in OS
 $hubAddress = "LocalHost"                          	# Address of Stratosphere Server Set to "LocalHost" if set by GPO
